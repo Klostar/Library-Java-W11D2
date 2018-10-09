@@ -21,4 +21,6 @@ public class Book {
     public String hasGenre() {
         return genre;
     }
+
+
 }
