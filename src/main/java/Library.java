@@ -10,5 +10,7 @@ public class Library {
     }
 
 
-
+    public int hasCapacity() {
+        return capacity;
+    }
 }
