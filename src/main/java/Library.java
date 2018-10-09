@@ -13,7 +13,14 @@ public class Library {
         System.out.println(books.values());
 
         System.out.println(books.entrySet());
-
+        int counter =0;
+        String countingFor = "Mystery";
+        for(String value : books.keySet()){
+            if(books.get(value).equals(countingFor)){
+                counter++;
+            }
+        }
+        System.out.println(countingFor + ":" + counter);
     }
 
     private ArrayList<Book> books;
