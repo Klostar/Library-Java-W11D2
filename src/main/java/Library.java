@@ -1,6 +1,21 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Library {
+    public static void main(String[] args) {
+        HashMap<String,String> books= new HashMap<>();
+        books.put("The Wide Window ", "Mystery");
+        books.put("The Vile Village", "Mystery");
+        books.put("The Hostile Hospital","Mystery");
+        books.put("The Story of Tracy Beaker", "Childrens Fiction");
+
+        System.out.println(books.size());
+        System.out.println(books.values());
+
+        System.out.println(books.entrySet());
+
+    }
+
     private ArrayList<Book> books;
     private int capacity;
 
