@@ -21,6 +21,12 @@ public class BookTest {
     }
 
     @Test
-    public void has
+    public void hasAuthor(){
+        assertEquals("Lemony Snicket", book.hasAuthor());
+    }
 
+    @Test
+    public void hasGenre(){
+        assertEquals("Mystery", book.hasGenre());
+    }
 }

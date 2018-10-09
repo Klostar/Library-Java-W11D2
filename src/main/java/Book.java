@@ -13,4 +13,12 @@ public class Book {
     public String hasTitle() {
         return title;
     }
+
+    public String hasAuthor(){
+        return author;
+    }
+
+    public String hasGenre() {
+        return genre;
+    }
 }
