@@ -24,4 +24,11 @@ public class BorrowerTest {
         assertEquals(1, borrower.collectonCount() );
 
     }
+    @Test
+    public void removeBookFromCollection(){
+        borrower.addBook(book);
+        assertEquals(1,borrower.collectonCount());
+        borrower.removeBookFromCollection(book);
+        assertEquals(0, borrower.collectonCount());
+    }
 }

@@ -17,4 +17,8 @@ public class Borrower {
     public void addBook(Book book) {
         books.add(book);
     }
+
+    public void removeBookFromCollection(Book book) {
+        books.remove(book);
+    }
 }
