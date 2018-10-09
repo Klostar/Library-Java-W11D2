@@ -5,10 +5,16 @@ public class Borrower {
 
     public Borrower(){
         this.books = new ArrayList<>();
+
     }
 
 
     public int collectonCount() {
      return books.size();
+    }
+
+
+    public void addBook(Book book) {
+        books.add(book);
     }
 }
