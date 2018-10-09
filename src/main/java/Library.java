@@ -16,4 +16,10 @@ public class Library {
     public int bookCount(){
         return books.size();
     }
+
+    public void addBook(Book book) {
+        if(bookCount() < capacity){
+            books.add(book);
+        }
+    }
 }
